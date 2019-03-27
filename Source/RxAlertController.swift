@@ -176,7 +176,7 @@ public class AlertController: NSObject {
 }
 
 public extension Reactive where Base: AlertController {
-    public func show(animated: Bool = true, completion: (() -> Void)? = nil) -> Observable<AlertController.Result>  {
+  func show(animated: Bool = true, completion: (() -> Void)? = nil) -> Observable<AlertController.Result>  {
         self.base.show(animated: animated, completion: completion)
 
         return Observable.create { observer in
