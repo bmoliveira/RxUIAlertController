@@ -1,8 +1,10 @@
 PODS:
-  - RxCocoa (4.0.0):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.0.0)
-  - RxUIAlertController (1.1.1):
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - RxUIAlertController (1.1.2):
     - RxCocoa
     - RxSwift
 
@@ -11,6 +13,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - RxAtomic
     - RxCocoa
     - RxSwift
 
@@ -19,9 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
-  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
-  RxUIAlertController: 61cabfd1bc9d799cf3a5c39a8d660105eee94818
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  RxUIAlertController: 28dd44795ba3d1abfcf9158f3ab4e62390a6ad90
 
 PODFILE CHECKSUM: e001db0045e2931dc0163727851e37d20de11750
 
